@@ -1,0 +1,2333 @@
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.287 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\tpanda_page\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.345 seconds.
+----  Could not Analyze  env/dev/cljs/tpanda_cookbook/dev.cljs  ----
+
+  No such namespace: tpanda-cookbook.core, could not locate tpanda_cookbook/core.cljs, tpanda_cookbook/core.cljc, or JavaScript source providing "tpanda-cookbook.core" (Please check that namespaces with dashes use underscores in the ClojureScript file name) 
+
+----  Analysis Error : Please see env/dev/cljs/tpanda_cookbook/dev.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.823 seconds.
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.91 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.993 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.771 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:41  ----
+
+  Wrong number of args (1) passed to cljs.core/reset!
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" {:on-click #(reset! 
+                                              ^--- Wrong number of args (1) passed to cljs.core/reset!
+  10                                           "WOW")}]])
+  11  
+  12  
+  13  (defn mount-root []
+  14    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.85 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:41  ----
+
+  Wrong number of args (1) passed to cljs.core/reset!
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" {:on-click #(reset! "WOW")}]])
+                                              ^--- Wrong number of args (1) passed to cljs.core/reset!
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.81 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:49  ----
+
+  Use of undeclared Var tpanda-cookbook.core/selected-department
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" {:on-click #(reset! selected-department "WOW")}]])
+                                                      ^--- Use of undeclared Var tpanda-cookbook.core/selected-department
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.737 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.695 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:41  ----
+
+  Wrong number of args (1) passed to cljs.core/reset!
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" {:on-click #(reset!  "WOW")}]])
+                                              ^--- Wrong number of args (1) passed to cljs.core/reset!
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.798 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.192 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.746 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.819 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:30  ----
+
+  Use of undeclared Var reagent.dom/onclick
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" (dom/onclick (dom/alert "test"))]])
+                                   ^--- Use of undeclared Var reagent.dom/onclick
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:43  ----
+
+  Use of undeclared Var reagent.dom/alert
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" (dom/onclick (dom/alert "test"))]])
+                                                ^--- Use of undeclared Var reagent.dom/alert
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.824 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:30  ----
+
+  Use of undeclared Var reagent.core/onclick
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" (r/onclick (r/alert "test"))]])
+                                   ^--- Use of undeclared Var reagent.core/onclick
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:41  ----
+
+  Use of undeclared Var reagent.core/alert
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" (r/onclick (r/alert "test"))]])
+                                              ^--- Use of undeclared Var reagent.core/alert
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.025 seconds.
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.874 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:9  column:54  ----
+
+  Wrong number of args (3) passed to cljs.core/reset!
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 "Hello world!" {:on-mouse-click (fn [e] (reset! e :text "YEY"))}]])
+                                                           ^--- Wrong number of args (3) passed to cljs.core/reset!
+  10  
+  11  
+  12  (defn mount-root []
+  13    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.918 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.695 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.704 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.745 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.753 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.762 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.796 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.818 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:10  column:38  ----
+
+  Use of undeclared Var reagent.dom/text
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (reset! (dom/text e) "TEST"))}
+                                           ^--- Use of undeclared Var reagent.dom/text
+  11           "Hello world!" 
+  12           ]])
+  13  
+  14  
+  15  (defn mount-root []
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.822 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.659 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.266 seconds.
+----  Could not Read  src/tpanda_page/core.cljs   line:10 ----
+
+  C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 10, col 47] Unmatched delimiter ).
+
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (.text e) "TEST"))}
+               C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 10, col 47] Unmatched delimiter ).
+  11           "Hello world!" 
+  12           ]])
+
+----  Reader Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.703 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.799 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.756 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.684 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.796 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.825 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.654 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.781 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.87 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.688 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:10  column:46  ----
+
+  Use of undeclared Var reagent.dom/text
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (js/console.log (dom/text e)))}
+                                                   ^--- Use of undeclared Var reagent.dom/text
+  11           "Hello world!" 
+  12           ]])
+  13  
+  14  
+  15  (defn mount-root []
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.782 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:10  column:46  ----
+
+  Use of undeclared Var reagent.dom/value
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (js/console.log (dom/value e)))}
+                                                   ^--- Use of undeclared Var reagent.dom/value
+  11           "Hello world!" 
+  12           ]])
+  13  
+  14  
+  15  (defn mount-root []
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.712 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.785 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.712 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.753 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.758 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:10  column:48  ----
+
+  Use of undeclared Var tpanda-cookbook.core/-value
+
+   6  ;; -------------------------
+   7  
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (js/console.log (e -value)))}
+                                                     ^--- Use of undeclared Var tpanda-cookbook.core/-value
+  11           "Hello world!" 
+  12           ]])
+  13  
+  14  
+  15  (defn mount-root []
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.806 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.761 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.671 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.846 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.72 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.741 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.694 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.82 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.73 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.255 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:11  column:37  ----
+
+  Unknown dot form of (. e -text ("YEY")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+   9  [:div [:h1 
+  10         {:on-click (fn [e] (do 
+  11                              (set! (.-text e "YEY"))
+                                        ^--- Unknown dot form of (. e -text ("YEY")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  12                              (js/console.log "Clicked")))}
+  13         "Hello world!" 
+  14         ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.278 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:11  column:37  ----
+
+  Unknown dot form of (. e -text ("YEY")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+   9  [:div [:h1 
+  10         {:on-click (fn [e] (do 
+  11                              (set! (.-text e "YEY") "YEY")
+                                        ^--- Unknown dot form of (. e -text ("YEY")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  12                              (js/console.log "Clicked")))}
+  13         "Hello world!" 
+  14         ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.644 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.672 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.691 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.341 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:11  column:31  ----
+
+  set! target must be a field or a symbol naming a var at line 11 src\tpanda_page\core.cljs
+
+   9  [:div [:h1 
+  10         {:on-click (fn [e] (do 
+  11                              (set! e .-value "YEY")
+                                  ^--- set! target must be a field or a symbol naming a var at line 11 src\tpanda_page\core.cljs
+  12                              (js/console.log "Clicked")))}
+  13         "Hello world!" 
+  14         ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.26 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:11  column:31  ----
+
+  Unknown dot form of (. e :value nil) with classification [:cljs.analyzer/expr :cljs.analyzer/error ()]
+
+   9  [:div [:h1 
+  10         {:on-click (fn [e] (do 
+  11                              (set! e :value "YEY")
+                                  ^--- Unknown dot form of (. e :value nil) with classification [:cljs.analyzer/expr :cljs.analyzer/error ()]
+  12                              (js/console.log "Clicked")))}
+  13         "Hello world!" 
+  14         ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.358 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:11  column:31  ----
+
+  set! target must be a field or a symbol naming a var at line 11 src\tpanda_page\core.cljs
+
+   9  [:div [:h1 
+  10         {:on-click (fn [e] (do 
+  11                              (set! e value "YEY")
+                                  ^--- set! target must be a field or a symbol naming a var at line 11 src\tpanda_page\core.cljs
+  12                              (js/console.log "Clicked")))}
+  13         "Hello world!" 
+  14         ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.681 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.712 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:11  column:50  ----
+
+  Use of undeclared Var tpanda-cookbook.core/-value
+
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (do 
+  11                                (js/console.log (e -value))
+                                                       ^--- Use of undeclared Var tpanda-cookbook.core/-value
+  12                                (js/console.log "Clicked")
+  13                                ))}
+  14           "Hello world!" 
+  15           ]])
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.845 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.825 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.689 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.707 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.75 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.725 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.266 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:10  column:45  ----
+
+  Unknown dot form of (. .-target -text (e)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (js/console.log (.-text .-target e)))}
+                                                  ^--- Unknown dot form of (. .-target -text (e)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  11           "Hello world!" 
+  12           ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.782 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.812 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.69 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.673 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.738 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.707 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.78 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.758 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.782 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.664 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.696 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.676 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.763 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.692 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.278 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:10  column:35  ----
+
+  Unknown dot form of (. (.-target e) -innerHTML ("Dupa")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (set! (.-innerHTML (.-target e) "Dupa")))}
+                                        ^--- Unknown dot form of (. (.-target e) -innerHTML ("Dupa")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  11           "Hello world!" 
+  12           ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.651 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.262 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:10  column:29  ----
+
+  set! target must be a field or a symbol naming a var at line 10 src\tpanda_page\core.cljs
+
+   8  (defn body-space []
+   9    [:div [:h1 
+  10           {:on-click (fn [e] (set! (.. e .-target .-innerHTML) "Dupa"))}
+                                  ^--- set! target must be a field or a symbol naming a var at line 10 src\tpanda_page\core.cljs
+  11           "Hello world!" 
+  12           ]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.747 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.7 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.818 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.743 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.669 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.796 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.653 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.725 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.697 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.751 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.707 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.791 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.653 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Notifying browser that CSS file changed: public/css/site.css
+Notifying browser that CSS file changed: public/css/site.css
+Notifying browser that CSS file changed: public/css/site.css
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.766 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.723 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Notifying browser that CSS file changed: public/css/site.css
+Notifying browser that CSS file changed: public/css/site.css
+Notifying browser that CSS file changed: public/css/site.css
+Notifying browser that CSS file changed: public/css/site.css
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.73 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.691 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.683 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Notifying browser that CSS file changed: public/css/site.css
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.643 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.633 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.683 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.627 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.635 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.66 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.696 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.646 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Notifying browser that CSS file changed: public/css/site.css
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.969 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Notifying browser that CSS file changed: public/css/site.css
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.769 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.349 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.78 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.283 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! (.getElementById js/document "app") (flextest)))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.28 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! (-> js/document (.getElementById "app")) (flextest)))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  reagent.core/render is deprecated
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (r/render (flextest) (-> js/document (.getElementById "app"))))}
+                             ^--- reagent.core/render is deprecated
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.836 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  reagent.core/render is deprecated
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (r/render [(flextest)] (-> js/document (.getElementById "app"))))}
+                             ^--- reagent.core/render is deprecated
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.892 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  reagent.core/render is deprecated
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (r/render [flextest] (-> js/document (.getElementById "app"))))}
+                             ^--- reagent.core/render is deprecated
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.787 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.765 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.687 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.817 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.795 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.707 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.736 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.846 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.742 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.284 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! .-children (.-children (-> js/document (.getElementById "app"))) (flextest)))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:30  ----
+
+  Use of undeclared Var tpanda-cookbook.core/-children
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (set! -children (.-children (-> js/document (.getElementById "app"))) (flextest)))}
+                                   ^--- Use of undeclared Var tpanda-cookbook.core/-children
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.291 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! -children (.-children (-> js/document (.getElementById "app"))) (flextest)))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.294 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! (.-children (-> js/document (.getElementById "app"))) .-chidren (flextest)))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.273 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ((flextest))) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (.-appendChild (.-children (-> js/document (.getElementById "app"))) (flextest)))}
+                           ^--- Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ((flextest))) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.806 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.3 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ((flextest))) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (.-appendChild (.-children (-> js/document (.getElementById "app"))) (flextest)))}
+                           ^--- Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ((flextest))) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.271 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! .-appendChild (.-children (-> js/document (.getElementById "app"))) (flextest)))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:96  ----
+
+  Wrong number of args (1) passed to tpanda-cookbook.core/flextest
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (-> (.-children (-> js/document (.getElementById "app"))) .-appendChild (flextest)))}
+                                                                                                     ^--- Wrong number of args (1) passed to tpanda-cookbook.core/flextest
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.704 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  Wrong number of args (1) passed to tpanda-cookbook.core/flextest
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (-> (.-children (-> js/document (.getElementById "app"))) .-appendChild flextest))}
+                             ^--- Wrong number of args (1) passed to tpanda-cookbook.core/flextest
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.909 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.659 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.73 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.741 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:16  column:82  ----
+
+  Use of undeclared Var tpanda-cookbook.core/-appendChild
+
+  13  (defn body-space []
+  14    [:div.fcontainer.frow.fmiddle
+  15     [:h1
+  16      {:on-click (fn [e] (-> (.-children (-> js/document (.getElementById "app"))) -appendChild [:h1 "YEY"]))}
+                                                                                       ^--- Use of undeclared Var tpanda-cookbook.core/-appendChild
+  17      "Hello world!"]])
+  18  
+  19  
+  20  (defn mount-root []
+  21    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.844 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.271 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ([:h1 "YEY"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (.-appendChild (.-children (-> js/document (.getElementById "app"))) [:h1 "YEY"]))}
+                           ^--- Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ([:h1 "YEY"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.271 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  Unknown dot form of (. (-> js/document (.getElementById "app")) -appendChild ([:h1 "YEY"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (.-appendChild (-> js/document (.getElementById "app")) [:h1 "YEY"]))}
+                           ^--- Unknown dot form of (. (-> js/document (.getElementById "app")) -appendChild ([:h1 "YEY"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.279 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! .-appendChild (-> js/document (.getElementById "app") .-appendChild) [:h1 "YEY"]))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.282 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:16  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (set! .-appendChild (-> js/document (.getElementById "app")) [:h1 "YEY"]))}
+                           ^--- set! target must be a field or a symbol naming a var at line 16 src\tpanda_page\core.cljs
+  17    "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.755 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.272 seconds.
+----  Could not Read  src/tpanda_page/core.cljs   line:16 ----
+
+  C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 16, col 39] Invalid symbol: js/console/log.
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (js/console/log (.-target (.-appendChild (-> js/document (.getElementById "app")))) [:h1 "YEY"]))}
+        C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 16, col 39] Invalid symbol: js/console/log.
+  17    "Hello world!"]])
+
+----  Reader Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.305 seconds.
+----  Could not Read  src/tpanda_page/core.cljs   line:16 ----
+
+  C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 16, col 39] Invalid symbol: js/console/log.
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (js/console/log (.-target (.-appendChild (-> js/document (.getElementById "app"))))))}
+        C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 16, col 39] Invalid symbol: js/console/log.
+  17    "Hello world!"]])
+
+----  Reader Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.292 seconds.
+----  Could not Read  src/tpanda_page/core.cljs   line:16 ----
+
+  C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 16, col 39] Invalid symbol: js/console/log.
+
+  14  [:div.fcontainer.frow.fmiddle
+  15   [:h1
+  16    {:on-click (fn [e] (js/console/log (.-appendChild (-> js/document (.getElementById "app")))))}
+        C:\Aleks\Github\tpanda-cookbook\src\tpanda_page\core.cljs [line 16, col 39] Invalid symbol: js/console/log.
+  17    "Hello world!"]])
+
+----  Reader Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.733 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.689 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.681 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.687 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.744 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.698 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.286 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:17  column:24  ----
+
+  Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ([:h2 "LOL"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  15  [:h1
+  16   ; {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17   {:on-click (fn [e] (.-appendChild (.-children (-> js/document (.getElementById "app"))) [:h2 "LOL"]))}
+                          ^--- Unknown dot form of (. (.-children (-> js/document (.getElementById "app"))) -appendChild ([:h2 "LOL"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  18   "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.42 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:17  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+
+  15  [:h1
+  16   ; {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17   {:on-click (fn [e] (set! .-appendChild (.-children (-> js/document (.getElementById "app"))) [:h2 "LOL"]))}
+                          ^--- set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+  18   "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.824 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.712 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.747 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.833 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.682 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.72 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.771 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.693 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.699 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.752 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.704 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.727 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.734 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.853 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.782 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.786 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.741 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.284 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:17  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+
+  15  [:h1
+  16   ; {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17   {:on-click (fn [e] (set! .-innerHTML (-> (first (.-children (-> js/document (.getElementById "app"))))) "Hi"))}
+                          ^--- set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+  18   "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.266 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:17  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+
+  15  [:h1
+  16   ; {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17   {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) .-innerHTML "Hi"))}
+                          ^--- set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+  18   "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.685 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.682 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.27 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:17  column:24  ----
+
+  set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+
+  15  [:h1
+  16   ; {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17   {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) [:h1 "HiHi"]))}
+                          ^--- set! target must be a field or a symbol naming a var at line 17 src\tpanda_page\core.cljs
+  18   "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.753 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.756 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.695 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.851 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.795 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.687 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.739 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.677 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.654 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.659 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.713 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.735 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.961 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.727 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.705 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.761 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.713 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.698 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.792 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.702 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.714 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.693 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.716 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.765 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.691 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.692 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:52  ----
+
+  Wrong number of args (3) passed to cljs.core/reset!
+
+  13  (defonce app-state (atom {:container [:div.fcontainer.frow.fmiddle
+  14                                        [:h1
+  15                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  16                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  17                                         {:on-click #(reset! @app-state conj {:container [:H2 "Change"]})}
+                                                         ^--- Wrong number of args (3) passed to cljs.core/reset!
+  18                                         "Hello world!"]]}))
+  19  
+  20  (defn body-space [] (:container @app-state))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.764 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.659 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.784 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:52  ----
+
+  Wrong number of args (2) passed to cljs.core/compare-and-set!
+
+  13  (defonce app-state (atom {:container [:div.fcontainer.frow.fmiddle
+  14                                        [:h1
+  15                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  16                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  17                                         {:on-click #(compare-and-set! @app-state (merge @app-state {:container [:H2 "Change"]}))}
+                                                         ^--- Wrong number of args (2) passed to cljs.core/compare-and-set!
+  18                                         "Hello world!"]]}))
+  19  
+  20  (defn body-space [] (:container @app-state))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.809 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:40  ----
+
+  Wrong number of args (2) passed to cljs.core/compare-and-set!
+
+  13  (defonce container (atom [:div.fcontainer.frow.fmiddle
+  14                            [:h1
+  15                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  16                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  17                             {:on-click #(compare-and-set! @container [:H2 "Change"])}
+                                             ^--- Wrong number of args (2) passed to cljs.core/compare-and-set!
+  18                             "Hello world!"]]))
+  19  
+  20  (defn body-space [] (:container @app-state))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:20  column:34  ----
+
+  Use of undeclared Var tpanda-cookbook.core/app-state
+
+  16                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  17                             {:on-click #(compare-and-set! @container [:H2 "Change"])}
+  18                             "Hello world!"]]))
+  19  
+  20  (defn body-space [] (:container @app-state))
+                                       ^--- Use of undeclared Var tpanda-cookbook.core/app-state
+  21  
+  22  
+  23  (defn mount-root []
+  24    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.829 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:20  column:34  ----
+
+  Use of undeclared Var tpanda-cookbook.core/app-state
+
+  16                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  17                             {:on-click #(compare-and-set! @container @container [:H2 "Change"])}
+  18                             "Hello world!"]]))
+  19  
+  20  (defn body-space [] (:container @app-state))
+                                       ^--- Use of undeclared Var tpanda-cookbook.core/app-state
+  21  
+  22  
+  23  (defn mount-root []
+  24    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.757 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:20  column:34  ----
+
+  Use of undeclared Var tpanda-cookbook.core/app-state
+
+  16                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  17                             {:on-click #(compare-and-set! @container @container  [:H2 "Change"])}
+  18                             "Hello world!"]]))
+  19  
+  20  (defn body-space [] (:container @app-state))
+                                       ^--- Use of undeclared Var tpanda-cookbook.core/app-state
+  21  
+  22  
+  23  (defn mount-root []
+  24    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.782 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.695 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.749 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.7 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.755 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.66 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.694 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.697 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.669 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.715 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:13  column:20  ----
+
+  Wrong number of args (0) passed to cljs.core/atom
+
+   9    [:div.fcontainer.frow.fcenter
+  10     [:div [:p "Text1"]]
+  11     [:div [:p "Text2"]]])
+  12  
+  13  (defonce container (atom ))
+                         ^--- Wrong number of args (0) passed to cljs.core/atom
+  14  
+  15  (defn test []
+  16    [:div.fcontainer.frow.fmiddle
+  17     [:h1
+  18                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:15  column:1  ----
+
+  test already refers to: cljs.core/test being replaced by: tpanda-cookbook.core/test
+
+  11     [:div [:p "Text2"]]])
+  12  
+  13  (defonce container (atom ))
+  14  
+  15  (defn test []
+      ^--- test already refers to: cljs.core/test being replaced by: tpanda-cookbook.core/test
+  16    [:div.fcontainer.frow.fmiddle
+  17     [:h1
+  18                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  19                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  20      {:on-click #(swap! @container [:H2 "Change"])}
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.824 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:15  column:1  ----
+
+  test already refers to: cljs.core/test being replaced by: tpanda-cookbook.core/test
+
+  11     [:div [:p "Text2"]]])
+  12  
+  13  (defonce container (atom [:h1 "Hello Mark"]))
+  14  
+  15  (defn test []
+      ^--- test already refers to: cljs.core/test being replaced by: tpanda-cookbook.core/test
+  16    [:div.fcontainer.frow.fmiddle
+  17     [:h1
+  18                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  19                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  20      {:on-click #(swap! @container [:H2 "Change"])}
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.749 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.686 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.669 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.702 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.661 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.698 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.714 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.757 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.795 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.717 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.753 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.775 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.69 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.815 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.66 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.765 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:14  column:1  ----
+
+  Wrong number of args (1) passed to cljs.core/add-watch
+
+  10     [:div [:p "Text1"]]
+  11     [:div [:p "Text2"]]])
+  12  
+  13  (defonce container (atom [:h1 "Oh, Hi Mark"]))
+  14  (add-watch container)
+      ^--- Wrong number of args (1) passed to cljs.core/add-watch
+  15  (defn tester []
+  16    [:div.fcontainer.frow.fmiddle
+  17     [:h1
+  18                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  19                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.731 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.782 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.737 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.346 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:60  ----
+
+  Can't call nil at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (-> js/document (.getElementById "main") ())
+                                                             ^--- Can't call nil at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.269 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:60  ----
+
+  Unknown dot form of (. (.getElementById js/document "main") -innerHTML ("EH")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (-> js/document (.getElementById "main") (.-innerHTML "EH"))
+                                                             ^--- Unknown dot form of (. (.getElementById js/document "main") -innerHTML ("EH")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.276 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  Unknown dot form of (. (-> js/document (.getElementById "main")) -innerHTML ("Działa?")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (.-innerHTML (-> js/document (.getElementById "main")) "Działa?")
+                    ^--- Unknown dot form of (. (-> js/document (.getElementById "main")) -innerHTML ("Działa?")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.269 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  Unknown dot form of (. (.target (-> js/document (.getElementById "main"))) -innerHTML ("Działa?")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (.-innerHTML (.target (-> js/document (.getElementById "main"))) "Działa?")
+                    ^--- Unknown dot form of (. (.target (-> js/document (.getElementById "main"))) -innerHTML ("Działa?")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.702 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.703 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.796 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.731 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.718 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.289 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (set! (-> js/document (.getElementById "main")) .-innerHTML "EH")
+                    ^--- set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.346 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (set! .-innerHTML (-> js/document (.getElementById "main"))  "EH")
+                    ^--- set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.349 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (set! .-innerHTML (-> js/document (.getElementById "main")) "EH")
+                    ^--- set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.285 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (set! .-innerHTML (.target (-> js/document (.getElementById "main"))) "EH")
+                    ^--- set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.271 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (set! .-innerHTML (.-target (-> js/document (.getElementById "main"))) "EH")
+                    ^--- set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.759 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.768 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.87 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.724 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.301 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (set! (-> js/document (.getElementById "main")) [:h1 "EH"])
+                    ^--- set! target must be a field or a symbol naming a var at line 21 src\tpanda_page\core.cljs
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.728 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.659 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.696 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.201 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.697 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.269 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  Unknown dot form of (. (-> js/document (.getElementById "main")) -appendChild ([:h1 "EH"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+
+  19  {:on-click #(do 
+  20                (reset! container [:H2 "Change"])
+  21                (.-appendChild (-> js/document (.getElementById "main")) [:h1 "EH"])
+                    ^--- Unknown dot form of (. (-> js/document (.getElementById "main")) -appendChild ([:h1 "EH"])) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr]
+  22                (js/console.log "Cilck"))}
+  23  "Hello world!"]])
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render [:h1 "EH"] (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.787 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render (flextest) (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.881 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render (flextest) (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.923 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render (flextest) (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.904 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.939 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.0 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do 
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.839 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Notifying browser that CSS file changed: public/css/site.css
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.274 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:14  column:1  ----
+
+  Too many arguments to def at line 14 src\tpanda_page\core.cljs
+
+  13  (defonce container (atom [:h1 "Oh, Hi Mark"]))
+  14  (def tester []
+      ^--- Too many arguments to def at line 14 src\tpanda_page\core.cljs
+  15    (fn [] ([:div.fcontainer.frow.farround.fmiddle {:id "main"}
+  16             [:h1
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.266 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:14  column:1  ----
+
+  Too many arguments to def at line 14 src\tpanda_page\core.cljs
+
+  13  (defonce container (atom [:h1 "Oh, Hi Mark"]))
+  14  (def tester []
+      ^--- Too many arguments to def at line 14 src\tpanda_page\core.cljs
+  15    (fn [] ([:div.fcontainer.frow.farround.fmiddle {:id "main"}
+  16             [:h1
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.273 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:14  column:1  ----
+
+  Too many arguments to def at line 14 src\tpanda_page\core.cljs
+
+  13  (defonce container (atom [:h1 "Oh, Hi Mark"]))
+  14  (def tester []
+      ^--- Too many arguments to def at line 14 src\tpanda_page\core.cljs
+  15    (fn [] ([:div.fcontainer.frow.farround.fmiddle {:id "main"}
+  16             [:h1
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.287 seconds.
+----  Could not Analyze  src/tpanda_page/core.cljs   line:14  column:1  ----
+
+  Too many arguments to def at line 14 src\tpanda_page\core.cljs
+
+  13  (defonce container (atom [:h1 "Oh, Hi Mark"]))
+  14  (def tester []
+      ^--- Too many arguments to def at line 14 src\tpanda_page\core.cljs
+  15    [:div.fcontainer.frow.farround.fmiddle {:id "main"}
+  16     [:h1
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+
+----  Analysis Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]])
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.864 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:19  ----
+
+  reagent.core/render is deprecated
+
+  17                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  18                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  19      {:on-click #(do
+  20                    (reset! container [:H2 "Change"])
+  21                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  22                    (js/console.log "Cilck"))}
+  23      "Hello world!"]]))
+  24  
+  25  (reset! container (tester))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.803 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:19  column:27  ----
+
+  Use of undeclared Var tpanda-cookbook.core/container
+
+  15     [:h1
+  16                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  18      {:on-click #(do
+  19                    (reset! container [:H2 "Change"])
+                                ^--- Use of undeclared Var tpanda-cookbook.core/container
+  20                    (r/render flextest (-> js/document (.getElementById "main")))
+  21                    (js/console.log "Cilck"))}
+  22      "Hello world!"]]))
+  23  
+  24  (defn body-space [] @container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:20  column:19  ----
+
+  reagent.core/render is deprecated
+
+  16                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  18      {:on-click #(do
+  19                    (reset! container [:H2 "Change"])
+  20                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  21                    (js/console.log "Cilck"))}
+  22      "Hello world!"]]))
+  23  
+  24  (defn body-space [] @container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:24  column:22  ----
+
+  Use of undeclared Var tpanda-cookbook.core/container
+
+  20                    (r/render flextest (-> js/document (.getElementById "main")))
+  21                    (js/console.log "Cilck"))}
+  22      "Hello world!"]]))
+  23  
+  24  (defn body-space [] @container)
+                           ^--- Use of undeclared Var tpanda-cookbook.core/container
+  25  
+  26  
+  27  (defn mount-root []
+  28    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.906 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:19  column:19  ----
+
+  reagent.core/render is deprecated
+
+  15     [:h1
+  16                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  18      {:on-click #(do
+  19                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  20                    (js/console.log "Cilck"))}
+  21      "Hello world!"]]))
+  22  
+  23  (defn body-space [] @container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:23  column:22  ----
+
+  Use of undeclared Var tpanda-cookbook.core/container
+
+  19                    (r/render flextest (-> js/document (.getElementById "main")))
+  20                    (js/console.log "Cilck"))}
+  21      "Hello world!"]]))
+  22  
+  23  (defn body-space [] @container)
+                           ^--- Use of undeclared Var tpanda-cookbook.core/container
+  24  
+  25  
+  26  (defn mount-root []
+  27    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.039 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:19  column:19  ----
+
+  reagent.core/render is deprecated
+
+  15     [:h1
+  16                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  18      {:on-click #(do
+  19                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  20                    (js/console.log "Cilck"))}
+  21      "Hello world!"]]))
+  22  
+  23  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.738 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:19  column:19  ----
+
+  reagent.core/render is deprecated
+
+  15     [:h1
+  16                                        ;  {:on-click (fn [e] (js/console.log (.-children (-> js/document (.getElementById "app")))))}
+  17                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  18      {:on-click #(do
+  19                    (r/render flextest (-> js/document (.getElementById "main")))
+                        ^--- reagent.core/render is deprecated
+  20                    (js/console.log "Cilck"))}
+  21      "Hello world!"]]))
+  22  
+  23  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.818 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:16  ----
+
+  reagent.core/render is deprecated
+
+  13                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  18      "Hello world!"]]))
+  19  
+  20  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.787 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:16  ----
+
+  reagent.core/render is deprecated
+
+  13                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  18      "Hello world!"]]))
+  19  
+  20  
+  21  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.888 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:16  ----
+
+  reagent.core/render is deprecated
+
+  13                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  18      "Hello world!"]]))
+  19  
+  20  
+  21  (defn body-space [] (container))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.86 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:16  ----
+
+  reagent.core/render is deprecated
+
+  13                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  18      "Hello world!"]]))
+  19  
+  20  
+  21  (defn body-space [] Scontainer)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:21  column:21  ----
+
+  Use of undeclared Var tpanda-cookbook.core/Scontainer
+
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+  18      "Hello world!"]]))
+  19  
+  20  
+  21  (defn body-space [] Scontainer)
+                          ^--- Use of undeclared Var tpanda-cookbook.core/Scontainer
+  22  
+  23  
+  24  (defn mount-root []
+  25    (dom/render [body-space] (.getElementById js/document "app")))
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.018 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:16  ----
+
+  reagent.core/render is deprecated
+
+  13                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  18      "Hello world!"]]))
+  19  
+  20  
+  21  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.825 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.845 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.908 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.067 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.839 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:18  column:16  ----
+
+  reagent.core/render is deprecated
+
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:id "change-btn"
+  18       :on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  19      "Hello world!"]]))
+  20  
+  21  (.addEventListener (-> js/document (.getElementById "app")) "click" (js/console.log "Btn click") false)
+  22  
+  23  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 0.915 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:17  column:16  ----
+
+  reagent.core/render is deprecated
+
+  13                                        ;  {:on-click (fn [e] (set! (-> (first (.-children (-> js/document (.getElementById "app"))))) -innerHTML (flextest)))}
+  14  (def container (fn []
+  15    [:div.fcontainer.frow.fmiddle {:id "main"}
+  16     [:h1 
+  17      {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+                     ^--- reagent.core/render is deprecated
+  18      "Hello world!"]]))
+  19  
+  20  (.addEventListener (-> js/document (.getElementById "app")) "click" (js/console.log "Btn click") false)
+  21  
+  22  (defn body-space [] container)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.024 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.772 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.83 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.777 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.773 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.713 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.74 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.847 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.747 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.802 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.814 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.734 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+----  Compiler Warning on   src/tpanda_page/core.cljs   line:20  column:40  ----
+
+  Use of undeclared Var tpanda-cookbook.core/e
+
+  16     [:h1 
+  17      ; {:on-click (r/render flextest (-> js/document (.getElementById "main")))}
+  18      {:on-load (do 
+  19                      (js/alert "Loaded")
+  20                      (.addEventListener e "click" #(js/alert "Click") false)
+                                             ^--- Use of undeclared Var tpanda-cookbook.core/e
+  21                      )}
+  22      "Hello world!"]]))
+  23  
+  24  ; (.addEventListener (-> js/document (.getElementById "app")) "click" (js/console.log "Btn click") false)
+
+----  Compiler Warning : Please see src/tpanda_page/core.cljs  ----
+Successfully compiled build :app to "public/js/app.js" in 1.888 seconds.
+notifying browser that file changed:  public/js/out/goog/deps.js
+notifying browser that file changed:  public/js/out/cljs_deps.js
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Failed to compile build :app from ["src" "env/dev/cljs"] in 0.339 seconds.
+----  Could not Read  src/tpanda_page/core.cljs   line:20  column:52  ----
+
+  Nested #()s are not allowed
+
+  18  {:on-load #(do 
+  19                  (js/alert "Loaded")
+  20                  (.addEventListener e "click" #(js/alert "Click") false)
+                                                     ^--- Nested #()s are not allowed
+  21                  )}
+  22  "Hello world!"]]))
+
+----  Reader Error : Please see src/tpanda_page/core.cljs  ----
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.909 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 0.786 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
+Compiling build :app to "public/js/app.js" from ["src" "env/dev/cljs"]...
+Successfully compiled build :app to "public/js/app.js" in 1.173 seconds.
+notifying browser that file changed:  public\js\out\tpanda_cookbook\core.js
